@@ -9,8 +9,8 @@ import { Article } from './airticle.interface';
 export class ObservableService {
   latestArticle: Article  = {
     "id":0,
-    "title":'some airticle',
-    "body":'some airticle body'
+    "title":'some Observable Service airticle',
+    "body":'some Observable Service airticle body'
   }
 
   private inventorySubject$ = new BehaviorSubject<Article>(this.latestArticle);

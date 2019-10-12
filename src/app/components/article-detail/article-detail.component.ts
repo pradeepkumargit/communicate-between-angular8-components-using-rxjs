@@ -13,8 +13,8 @@ export class ArticleDetailComponent implements OnInit {
 
   detail1: Article = {
     "id": 0,
-    "title": "XXX",
-    "body": "xxxxxxxxxxxxxxxxxxxxxxxxx"
+    "title": "Some Event Bus Article",
+    "body": "Some Event Bus Article Data"
   }
 
   detail2: Article;
